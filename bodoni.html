@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grounded Giving — Bodoni Explorations</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@200;300;400;500&family=Raleway:wght@200;300;400&family=Jost:wght@200;300;400&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 32px;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  header h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  header .sub {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  header p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 5px;
+    color: #bbb;
+    text-transform: uppercase;
+    margin: 50px 0 20px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+  }
+  .section-label:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .grid.two-col {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (max-width: 700px) {
+    .grid.two-col, .grid.three-col { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: #fafaf8;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .card .display {
+    padding: 48px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+  }
+  .card .display.tall { min-height: 220px; }
+  .card .display.dark { background: #1a1a1a; }
+  .card .display.charcoal { background: #2c2c2c; }
+  .card .display.cream { background: #f5f0eb; }
+  .card .display svg { display: block; width: 100%; max-width: 500px; }
+
+  .card .label {
+    padding: 12px 16px;
+    border-top: 1px solid #eee;
+    background: #fff;
+  }
+  .card .label strong {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3px;
+  }
+  .card .label span {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  /* Live text treatments */
+  .wordmark {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    line-height: 1;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
+    font-size: 11px;
+    color: #bbb;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Grounded Giving</h1>
+  <p class="sub">Bodoni Explorations &mdash; Taylor's Pick</p>
+  <p>High-contrast Didone serif. Dramatic thick/thin strokes. The Valentino, Vogue, Byredo family. Every variation below uses Bodoni Moda.</p>
+</header>
+
+<!-- ─── CASE & WEIGHT ─── -->
+<p class="section-label">Case &amp; Weight</p>
+<div class="grid">
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 52px; font-weight: 400; letter-spacing: 1px;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Title Case — Regular</strong>
+      <span>Closest to Taylor's pick. Warm, approachable, still elevated.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 52px; font-weight: 500; letter-spacing: 1px;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Title Case — Medium</strong>
+      <span>Slightly heavier. More presence, same elegance.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 52px; font-weight: 700; letter-spacing: 1px;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Title Case — Bold</strong>
+      <span>Maximum contrast in the thick/thin strokes. Statement weight.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 48px; font-weight: 400; letter-spacing: 10px; text-transform: uppercase;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>All Caps — Tracked</strong>
+      <span>More formal, institutional. Celine / Vogue energy.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 52px; font-weight: 400; letter-spacing: 4px;">grounded giving</div>
+    </div>
+    <div class="label">
+      <strong>Lowercase</strong>
+      <span>Intimate, modern. Aesop, Byredo territory.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 52px; font-weight: 400; font-style: italic; letter-spacing: 1px;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Title Case — Italic</strong>
+      <span>More personal, editorial. Invitation energy.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── STACKED LAYOUTS ─── -->
+<p class="section-label">Stacked Layouts</p>
+<div class="grid two-col">
+
+  <div class="card">
+    <div class="display tall">
+      <div class="wordmark" style="font-size: 44px; font-weight: 400; letter-spacing: 1px; line-height: 1.15;">Grounded<br>Giving</div>
+    </div>
+    <div class="label">
+      <strong>Stacked — Left Aligned</strong>
+      <span>Like Taylor's Ideogram pick. Tight, editorial.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display tall">
+      <div class="wordmark" style="font-size: 44px; font-weight: 400; letter-spacing: 1px; line-height: 1.15; text-align: center;">Grounded<br>Giving</div>
+    </div>
+    <div class="label">
+      <strong>Stacked — Centered</strong>
+      <span>More symmetrical, classic logo arrangement.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display tall">
+      <div class="wordmark" style="font-size: 38px; font-weight: 400; letter-spacing: 1px; line-height: 1.6; text-align: center;">Grounded<br><span style="display: inline-block; width: 180px; border-top: 1px solid #1a1a1a; margin-bottom: -4px;"></span><br>Giving</div>
+    </div>
+    <div class="label">
+      <strong>Stacked — Ruled</strong>
+      <span>Hairline divider between. Gallery / auction house feel.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display tall">
+      <div>
+        <div class="wordmark" style="font-size: 48px; font-weight: 700; letter-spacing: 2px;">Grounded</div>
+        <div class="wordmark" style="font-size: 18px; font-weight: 300; letter-spacing: 10px; font-family: 'Inter', sans-serif; margin-top: 8px;">GIVING</div>
+      </div>
+    </div>
+    <div class="label">
+      <strong>Weight Contrast</strong>
+      <span>Bold Bodoni over light sans. Drama meets restraint.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── IN THE BLACK BADGE ─── -->
+<p class="section-label">In the Black Badge</p>
+<div class="grid three-col">
+
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="140" font-family="'Bodoni Moda', serif" font-size="26" fill="white" text-anchor="middle" letter-spacing="1" font-weight="400">Grounded</text>
+      <line x1="88" y1="153" x2="212" y2="153" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="176" font-family="'Bodoni Moda', serif" font-size="26" fill="white" text-anchor="middle" letter-spacing="1" font-weight="400">Giving</text>
+    </svg>
+    <div class="label">
+      <strong>Badge — Title Ruled</strong>
+      <span>Taylor's Bodoni in the black circle with rule</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="144" font-family="'Bodoni Moda', serif" font-size="28" fill="white" text-anchor="middle" letter-spacing="1" font-weight="400">Grounded</text>
+      <text x="150" y="176" font-family="'Bodoni Moda', serif" font-size="28" fill="white" text-anchor="middle" letter-spacing="1" font-weight="400">Giving</text>
+    </svg>
+    <div class="label">
+      <strong>Badge — Title Clean</strong>
+      <span>No rule, just the name. Maximum simplicity.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="140" font-family="'Bodoni Moda', serif" font-size="22" fill="white" text-anchor="middle" letter-spacing="6" font-weight="400">GROUNDED</text>
+      <line x1="88" y1="153" x2="212" y2="153" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="176" font-family="'Bodoni Moda', serif" font-size="22" fill="white" text-anchor="middle" letter-spacing="6" font-weight="400">GIVING</text>
+    </svg>
+    <div class="label">
+      <strong>Badge — Caps Ruled</strong>
+      <span>All caps, tracked, more formal.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="148" font-family="'Bodoni Moda', serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="400">GG</text>
+      <line x1="108" y1="162" x2="192" y2="162" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="182" font-family="'Inter', sans-serif" font-size="7" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">GROUNDED GIVING</text>
+    </svg>
+    <div class="label">
+      <strong>Badge — GG Monogram</strong>
+      <span>Bodoni GG with name below.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="134" fill="none" stroke="black" stroke-width="1.5"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="140" font-family="'Bodoni Moda', serif" font-size="26" fill="white" text-anchor="middle" letter-spacing="1" font-weight="400">Grounded</text>
+      <line x1="88" y1="153" x2="212" y2="153" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="176" font-family="'Bodoni Moda', serif" font-size="26" fill="white" text-anchor="middle" letter-spacing="1" font-weight="400">Giving</text>
+    </svg>
+    <div class="label">
+      <strong>Badge — Orbit Ring</strong>
+      <span>Outer ring adds the seal quality.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="#2c2c2c"/>
+      <text x="150" y="140" font-family="'Bodoni Moda', serif" font-size="26" fill="#e8e4df" text-anchor="middle" letter-spacing="1" font-weight="400">Grounded</text>
+      <line x1="88" y1="153" x2="212" y2="153" stroke="#e8e4df" stroke-width="0.5"/>
+      <text x="150" y="176" font-family="'Bodoni Moda', serif" font-size="26" fill="#e8e4df" text-anchor="middle" letter-spacing="1" font-weight="400">Giving</text>
+    </svg>
+    <div class="label">
+      <strong>Badge — Warm</strong>
+      <span>Charcoal + cream. Softer tone.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── ON DARK ─── -->
+<p class="section-label">On Dark Backgrounds</p>
+<div class="grid two-col">
+
+  <div class="card">
+    <div class="display dark">
+      <div class="wordmark" style="font-size: 48px; font-weight: 400; letter-spacing: 1px; color: white;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>White on Black</strong>
+      <span>How it reads reversed — the thin strokes glow.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display charcoal">
+      <div class="wordmark" style="font-size: 48px; font-weight: 400; letter-spacing: 1px; color: #e8e4df;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Cream on Charcoal</strong>
+      <span>Warmer. Less stark. More inviting.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display dark">
+      <div>
+        <div class="wordmark" style="font-size: 42px; font-weight: 400; letter-spacing: 1px; color: white; line-height: 1.15;">Grounded<br>Giving</div>
+      </div>
+    </div>
+    <div class="label">
+      <strong>Stacked — White on Black</strong>
+      <span>The Ideogram result, live in Bodoni Moda.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display" style="background: #f5f0eb;">
+      <div class="wordmark" style="font-size: 48px; font-weight: 400; letter-spacing: 1px; color: #1a1a1a;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>On Cream</strong>
+      <span>Warm paper tone. Stationery / invitation feel.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── PAIRED WITH SANS ─── -->
+<p class="section-label">Paired with Sans-Serif</p>
+<div class="grid two-col">
+
+  <div class="card">
+    <div class="display tall">
+      <div style="text-align: center;">
+        <div class="wordmark" style="font-size: 46px; font-weight: 400; letter-spacing: 1px;">Grounded Giving</div>
+        <div style="font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 6px; color: #888; margin-top: 10px; text-transform: uppercase;">Philanthropy Advisory</div>
+      </div>
+    </div>
+    <div class="label">
+      <strong>Bodoni + Inter</strong>
+      <span>Bodoni wordmark over Inter descriptor. Clean pairing.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display tall">
+      <div style="text-align: center;">
+        <div class="wordmark" style="font-size: 46px; font-weight: 400; letter-spacing: 1px;">Grounded Giving</div>
+        <div style="font-family: 'Raleway', sans-serif; font-size: 12px; letter-spacing: 6px; color: #888; margin-top: 10px; text-transform: uppercase; font-weight: 300;">Philanthropy Advisory</div>
+      </div>
+    </div>
+    <div class="label">
+      <strong>Bodoni + Raleway</strong>
+      <span>Thinner sans pairs well with Bodoni's thin strokes.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display tall">
+      <div style="text-align: center;">
+        <div class="wordmark" style="font-size: 46px; font-weight: 400; letter-spacing: 1px;">Grounded Giving</div>
+        <div style="font-family: 'Jost', sans-serif; font-size: 12px; letter-spacing: 6px; color: #888; margin-top: 10px; text-transform: uppercase; font-weight: 300;">Philanthropy Advisory</div>
+      </div>
+    </div>
+    <div class="label">
+      <strong>Bodoni + Jost</strong>
+      <span>Geometric Futura-style. More modern contrast.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display tall">
+      <div style="text-align: center;">
+        <div class="wordmark" style="font-size: 46px; font-weight: 700; letter-spacing: 1px;">Grounded Giving</div>
+        <div style="font-family: 'Jost', sans-serif; font-size: 13px; letter-spacing: 8px; color: #666; margin-top: 10px; text-transform: uppercase; font-weight: 200;">Philanthropy Advisory</div>
+      </div>
+    </div>
+    <div class="label">
+      <strong>Bold Bodoni + Thin Jost</strong>
+      <span>Maximum weight contrast between name and descriptor.</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── AT SMALL SIZES ─── -->
+<p class="section-label">At Small Sizes (Favicon, Nav, Footer)</p>
+<div class="grid three-col">
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 16px; font-weight: 400; letter-spacing: 1px;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Nav Size</strong>
+      <span>How it reads in a navigation bar.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <div class="wordmark" style="font-size: 12px; font-weight: 400; letter-spacing: 1px; color: #888;">Grounded Giving</div>
+    </div>
+    <div class="label">
+      <strong>Footer Size</strong>
+      <span>Small + muted. Still legible?</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="display">
+      <svg viewBox="0 0 64 64" width="64" height="64">
+        <circle cx="32" cy="32" r="32" fill="black"/>
+        <text x="32" y="36" font-family="'Bodoni Moda', serif" font-size="22" fill="white" text-anchor="middle" letter-spacing="3" font-weight="400">GG</text>
+      </svg>
+    </div>
+    <div class="label">
+      <strong>Favicon</strong>
+      <span>GG in Bodoni at icon size.</span>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>Grounded Giving &mdash; Confidential</p>
+</footer>
+
+</body>
+</html>
