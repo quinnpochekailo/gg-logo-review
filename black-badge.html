@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grounded Giving — Black Badge Variations</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Inter:wght@200;300;400;500&family=Playfair+Display:wght@400;500;600;700&family=Bodoni+Moda:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@200;300;400;500&family=Jost:wght@200;300;400;500&family=DM+Sans:wght@300;400;500&family=Crimson+Pro:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@200;300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    background: #fff;
+    color: #1a1a1a;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 32px 60px;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  header h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  header .sub {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  header p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+    body { padding: 40px 16px; }
+  }
+
+  .card {
+    background: #fafaf8;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .card svg {
+    display: block;
+    width: 100%;
+  }
+  .card .label {
+    padding: 12px 14px;
+    border-top: 1px solid #eee;
+    background: #fff;
+  }
+  .card .label strong {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3px;
+  }
+  .card .label span {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 5px;
+    color: #bbb;
+    text-transform: uppercase;
+    margin: 50px 0 20px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+  }
+  .section-label:first-of-type {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 50px;
+    font-size: 11px;
+    color: #bbb;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 2.2;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Black Badge</h1>
+  <p class="sub">Variations on 1F &mdash; April 2026</p>
+  <p>Taylor's pick. Solid circle, knockout white. Below: variations in typeface, layout, content, and shape. Same energy, different details.</p>
+</header>
+
+<!-- ─── TYPEFACE VARIATIONS ─── -->
+<p class="section-label">Typeface Variations</p>
+<div class="grid">
+
+  <!-- Original -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Original</strong>
+      <span>Cormorant Garamond &mdash; the starting point</span>
+    </div>
+  </div>
+
+  <!-- Bodoni -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Bodoni Moda', 'Didot', serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Bodoni</strong>
+      <span>High contrast &mdash; Valentino, Vogue</span>
+    </div>
+  </div>
+
+  <!-- Playfair -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Playfair Display', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Playfair</strong>
+      <span>Transitional serif &mdash; Soho House, The Ned</span>
+    </div>
+  </div>
+
+  <!-- Cinzel -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Cinzel', serif" font-size="44" fill="white" text-anchor="middle" letter-spacing="10" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Cinzel</strong>
+      <span>Roman capitals &mdash; Bulgari, Tiffany</span>
+    </div>
+  </div>
+
+  <!-- EB Garamond -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'EB Garamond', 'Garamond', serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Garamond</strong>
+      <span>Old-style serif &mdash; Celine, Cartier</span>
+    </div>
+  </div>
+
+  <!-- Jost / Futura -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Jost', sans-serif" font-size="48" fill="white" text-anchor="middle" letter-spacing="10" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Jost (Futura)</strong>
+      <span>Geometric sans &mdash; Louis Vuitton, Supreme</span>
+    </div>
+  </div>
+
+  <!-- Raleway thin -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="148" font-family="'Raleway', sans-serif" font-size="48" fill="white" text-anchor="middle" letter-spacing="12" font-weight="200">GG</text>
+      <line x1="108" y1="162" x2="192" y2="162" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="182" font-family="'Raleway', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Raleway Thin</strong>
+      <span>Hairline geometric &mdash; Bottega, The Row</span>
+    </div>
+  </div>
+
+  <!-- Montserrat -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Montserrat', sans-serif" font-size="46" fill="white" text-anchor="middle" letter-spacing="10" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Montserrat</strong>
+      <span>Warm geometric &mdash; luxury hospitality</span>
+    </div>
+  </div>
+
+  <!-- Libre Baskerville -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="146" font-family="'Libre Baskerville', 'Baskerville', serif" font-size="48" fill="white" text-anchor="middle" letter-spacing="8" font-weight="400">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Baskerville</strong>
+      <span>British serif &mdash; Kate Spade, quiet authority</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── LAYOUT VARIATIONS ─── -->
+<p class="section-label">Layout Variations</p>
+<div class="grid">
+
+  <!-- GG only, no subtitle -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="160" font-family="'Cormorant Garamond', Georgia, serif" font-size="56" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+    </svg>
+    <div class="label">
+      <strong>Pure GG</strong>
+      <span>Nothing but the monogram. Maximum restraint.</span>
+    </div>
+  </div>
+
+  <!-- GG with GROUNDED GIVING below -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="140" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="154" x2="192" y2="154" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="172" font-family="'Inter', sans-serif" font-size="7" fill="white" text-anchor="middle" letter-spacing="3.5" font-weight="300">GROUNDED GIVING</text>
+    </svg>
+    <div class="label">
+      <strong>Full Name</strong>
+      <span>GG + "Grounded Giving" spelled out below</span>
+    </div>
+  </div>
+
+  <!-- Full wordmark stacked inside -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="145" font-family="'Cormorant Garamond', Georgia, serif" font-size="26" fill="white" text-anchor="middle" letter-spacing="6" font-weight="500">GROUNDED</text>
+      <text x="150" y="172" font-family="'Cormorant Garamond', Georgia, serif" font-size="26" fill="white" text-anchor="middle" letter-spacing="6" font-weight="500">GIVING</text>
+    </svg>
+    <div class="label">
+      <strong>Full Wordmark</strong>
+      <span>Name stacked, no monogram. Bolder statement.</span>
+    </div>
+  </div>
+
+  <!-- Larger GG, subtitle above -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="126" font-family="'Inter', sans-serif" font-size="7" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">GROUNDED GIVING</text>
+      <line x1="108" y1="134" x2="192" y2="134" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="172" font-family="'Cormorant Garamond', Georgia, serif" font-size="56" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+    </svg>
+    <div class="label">
+      <strong>Inverted Stack</strong>
+      <span>Name on top, GG anchors below</span>
+    </div>
+  </div>
+
+  <!-- Three-line stack -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="128" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" fill="white" text-anchor="middle" letter-spacing="6" font-weight="500">GROUNDED</text>
+      <text x="150" y="160" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" fill="white" text-anchor="middle" letter-spacing="6" font-weight="500">GIVING</text>
+      <line x1="112" y1="172" x2="188" y2="172" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="190" font-family="'Inter', sans-serif" font-size="7" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Full + Date</strong>
+      <span>Everything &mdash; name, rule, established date</span>
+    </div>
+  </div>
+
+  <!-- Tiny GG, large subtitle -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="138" font-family="'Cormorant Garamond', Georgia, serif" font-size="32" fill="white" text-anchor="middle" letter-spacing="6" font-weight="400">GG</text>
+      <line x1="120" y1="148" x2="180" y2="148" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="170" font-family="'Inter', sans-serif" font-size="9" fill="white" text-anchor="middle" letter-spacing="5" font-weight="300">PHILANTHROPY</text>
+      <text x="150" y="184" font-family="'Inter', sans-serif" font-size="9" fill="white" text-anchor="middle" letter-spacing="5" font-weight="300">ADVISORY</text>
+    </svg>
+    <div class="label">
+      <strong>With Descriptor</strong>
+      <span>GG + what you actually do</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── SHAPE VARIATIONS ─── -->
+<p class="section-label">Shape Variations</p>
+<div class="grid">
+
+  <!-- Rounded square -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <rect x="30" y="30" width="240" height="240" rx="24" fill="black"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Rounded Square</strong>
+      <span>Softer corners &mdash; app icon ready</span>
+    </div>
+  </div>
+
+  <!-- Sharp square -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <rect x="36" y="36" width="228" height="228" fill="black"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Sharp Square</strong>
+      <span>Hard edges &mdash; more architectural</span>
+    </div>
+  </div>
+
+  <!-- Octagon -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <polygon points="100,30 200,30 270,100 270,200 200,270 100,270 30,200 30,100" fill="black"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Octagon</strong>
+      <span>Stop-sign authority &mdash; more distinctive</span>
+    </div>
+  </div>
+
+  <!-- Circle with thin outer ring -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="130" fill="none" stroke="black" stroke-width="1"/>
+      <circle cx="150" cy="150" r="115" fill="black"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Orbit Ring</strong>
+      <span>Thin outer ring adds depth &mdash; wax seal nod</span>
+    </div>
+  </div>
+
+  <!-- Circle with double ring -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="134" fill="none" stroke="black" stroke-width="1.5"/>
+      <circle cx="150" cy="150" r="126" fill="none" stroke="black" stroke-width="0.5"/>
+      <circle cx="150" cy="150" r="115" fill="black"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Double Ring</strong>
+      <span>Concentric rings &mdash; seal + prestige</span>
+    </div>
+  </div>
+
+  <!-- Pill / horizontal capsule -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <rect x="20" y="75" width="260" height="150" rx="75" fill="black"/>
+      <text x="150" y="148" font-family="'Cormorant Garamond', Georgia, serif" font-size="44" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="178" font-family="'Inter', sans-serif" font-size="7" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Capsule</strong>
+      <span>Horizontal pill &mdash; modern, distinctive silhouette</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ─── TONE VARIATIONS ─── -->
+<p class="section-label">Tone &amp; Detail Variations</p>
+<div class="grid">
+
+  <!-- Inverted — white circle, black GG -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#1a1a1a"/>
+      <circle cx="150" cy="150" r="120" fill="white"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="black" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="black" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="black" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Inverted</strong>
+      <span>White on dark &mdash; how it reads reversed</span>
+    </div>
+  </div>
+
+  <!-- Outline only -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="118" fill="none" stroke="black" stroke-width="3"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="black" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="black" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="black" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Outline</strong>
+      <span>Stroke-only variant &mdash; lighter touch</span>
+    </div>
+  </div>
+
+  <!-- Dark gray instead of black -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="#2c2c2c"/>
+      <text x="150" y="146" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="#e8e4df" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="160" x2="192" y2="160" stroke="#e8e4df" stroke-width="0.5"/>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="#e8e4df" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Warm Dark</strong>
+      <span>Charcoal + cream &mdash; softer, more approachable</span>
+    </div>
+  </div>
+
+  <!-- With dot separator between G's -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="126" y="152" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="2" font-weight="500">G</text>
+      <circle cx="150" cy="140" r="2" fill="white"/>
+      <text x="176" y="152" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" fill="white" text-anchor="middle" letter-spacing="2" font-weight="500">G</text>
+      <text x="150" y="180" font-family="'Inter', sans-serif" font-size="8" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">EST. MMXXV</text>
+    </svg>
+    <div class="label">
+      <strong>Dot Separator</strong>
+      <span>G &middot; G &mdash; punctuated, distinctive</span>
+    </div>
+  </div>
+
+  <!-- No rule, larger scale -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <text x="150" y="155" font-family="'Cormorant Garamond', Georgia, serif" font-size="68" fill="white" text-anchor="middle" letter-spacing="10" font-weight="600">GG</text>
+    </svg>
+    <div class="label">
+      <strong>Bold Scale</strong>
+      <span>Oversized GG, nothing else. Confidence.</span>
+    </div>
+  </div>
+
+  <!-- Stacked with thin rules above and below -->
+  <div class="card">
+    <svg viewBox="0 0 300 300">
+      <rect width="300" height="300" fill="#fafaf8"/>
+      <circle cx="150" cy="150" r="120" fill="black"/>
+      <line x1="108" y1="120" x2="192" y2="120" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="155" font-family="'Cormorant Garamond', Georgia, serif" font-size="46" fill="white" text-anchor="middle" letter-spacing="8" font-weight="500">GG</text>
+      <line x1="108" y1="168" x2="192" y2="168" stroke="white" stroke-width="0.5"/>
+      <text x="150" y="190" font-family="'Inter', sans-serif" font-size="7" fill="white" text-anchor="middle" letter-spacing="4" font-weight="300">GROUNDED GIVING</text>
+    </svg>
+    <div class="label">
+      <strong>Double Rule</strong>
+      <span>Rules above and below GG &mdash; framed feel</span>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>Grounded Giving &mdash; Confidential</p>
+</footer>
+
+</body>
+</html>
